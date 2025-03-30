@@ -1,0 +1,11 @@
+apiVersion: v2
+name: alura-foods-app
+description: Chart para fazer deploy dos microsserviços da Alura Foods
+type: application
+version: 1.0.0
+appVersion: 0.0.1
+
+dependencies:
+  - name: mysql
+    version: 11.1.7
+    repository: https://charts.bitnami.com/bitnami
